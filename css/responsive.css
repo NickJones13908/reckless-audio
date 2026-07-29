@@ -1,0 +1,369 @@
+/* ==========================================
+   RECKLESS AUDIO
+   Responsive Styles
+========================================== */
+
+
+/* ==========================================
+   TABLETS
+========================================== */
+
+
+@media (max-width: 900px) {
+
+
+    /* Navigation */
+
+
+    .nav-links {
+
+        display:none;
+
+    }
+
+
+    .menu-btn {
+
+        display:block;
+
+        background:none;
+
+        border:none;
+
+        color:white;
+
+        font-size:2rem;
+
+        cursor:pointer;
+
+    }
+
+
+
+    .nav .btn {
+
+        display:none;
+
+    }
+
+
+
+
+
+    /* Typography */
+
+
+    h2 {
+
+        font-size:3rem;
+
+    }
+
+
+
+
+    /* Hero */
+
+
+    .hero {
+
+        min-height:90vh;
+
+    }
+
+
+    .hero h1 {
+
+        font-size:5rem;
+
+    }
+
+
+
+    .hero-text {
+
+        font-size:1rem;
+
+    }
+
+
+
+
+
+
+    /* Services */
+
+
+    .service-grid {
+
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+
+
+    /* Portfolio */
+
+
+    .portfolio-grid {
+
+
+        grid-template-columns:repeat(2,1fr);
+
+
+    }
+
+
+
+
+
+    /* About */
+
+
+    .about-content {
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+    .about-image {
+
+        height:400px;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+
+@media (max-width:600px) {
+
+
+
+    section {
+
+        padding:70px 0;
+
+    }
+
+
+
+
+    /* Navigation */
+
+
+    .nav {
+
+        height:75px;
+
+    }
+
+
+
+    .logo {
+
+        font-size:1.7rem;
+
+    }
+
+
+
+
+
+    /* Hero */
+
+
+    .hero {
+
+        min-height:100vh;
+
+    }
+
+
+    .hero h1 {
+
+
+        font-size:3.5rem;
+
+
+    }
+
+
+    .hero-buttons {
+
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+
+    }
+
+
+
+    .btn,
+    .btn-secondary {
+
+
+        width:100%;
+
+        text-align:center;
+
+
+    }
+
+
+
+
+
+
+
+    /* Sections */
+
+
+    h2 {
+
+        font-size:2.5rem;
+
+    }
+
+
+
+
+    /* Portfolio */
+
+
+    .portfolio-grid {
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+    .image-placeholder {
+
+
+        height:300px;
+
+
+    }
+
+
+
+
+
+
+    /* Cards */
+
+
+    .service-card {
+
+
+        padding:30px;
+
+
+    }
+
+
+
+    .service-card h3 {
+
+
+        font-size:2rem;
+
+
+    }
+
+
+
+
+
+
+
+    /* About */
+
+
+    .about-image {
+
+
+        height:300px;
+
+
+    }
+
+
+
+
+
+    /* Footer */
+
+
+    .footer {
+
+
+        flex-direction:column;
+
+        gap:25px;
+
+        text-align:center;
+
+
+    }
+
+
+
+    .footer div {
+
+
+        justify-content:center;
+
+
+    }
+
+
+
+
+}
+@media(max-width:900px){
+
+
+.contact-container {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.form-row {
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
